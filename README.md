@@ -4,15 +4,18 @@ Ansible clone in go
 Why? For fun and profit. Maybe I can even find something to improve on?
 
 # usage
-```bash
-# v0.1+
-$ go run ./cmd/main
-```
+TBD
 
-options
-- `-version` print version and exit
+# test
+```bash
+$ go test -v -race
+```
 
 # todos
 - [x] ssh session
+- [x] tests
 - [ ] playbook
 - [ ] modules
+
+# license
+MIT
